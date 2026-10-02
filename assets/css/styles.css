@@ -22440,6 +22440,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  text-align: center;
 }
 .card-demo .demo-image::after {
   content: "";
@@ -22482,7 +22483,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   transform: translateY(10px);
 }
 .card-demo .demo-image .group-action .tf-btn {
-  width: 100%;
+  width: auto;
 }
 .card-demo .demo-image::after {
   height: 0%;
@@ -22506,7 +22507,6 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 @media (min-width: 768px) {
   .card-demo .demo-image .group-action {
     margin: 0 auto;
-    width: 50%;
   }
 }
 @media (max-width: 991px) {
